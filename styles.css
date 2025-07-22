@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif; 
+    
+}
+
+body {
+    background-color: #181818;
+    min-width: 50%;    
+}
+
+
+
+.mainContainer {
+    background-color: #2c2c2c;
+    height: 30rem;
+    width: 20rem;    
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    margin-top:5rem;
+    margin-bottom: 5rem;
+     
+}
+
+.mainHead {
+   display: flex;
+   flex-direction: column; 
+   gap: 1rem;
+    
+}
+
+.mainHead img{
+    width: 5rem; 
+    height: 5rem;
+    border-radius: 3rem; 
+}
+
+.mainHead h1 {
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 0.2rem
+} 
+
+.mainHead h2 {
+    color: #b5ff00;
+    font-size: 0.8rem;
+    
+}
+
+.mainBody{
+    display: flex;
+    flex-direction: column; 
+    gap: 0.8rem;
+    
+}
+
+.mainBody h2 {
+    color: white; 
+    font-size: 0.8rem;
+    font-weight: lighter;
+    height: 1.5rem;
+}
+
+.mainbody, ul {
+    display: flex;
+    gap: 0.6rem;
+    flex-direction: column;
+    list-style: none
+}
+
+.mainBody .bodyButton, button {
+    background-color: #4c4c4c;
+    color: white;
+    width:80%;
+    height: 2.2rem; 
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: 0.2s;
+    
+}
+
+.mainBody .bodyButton, button:hover {
+    background-color: #b5ff00;
+    color:#4c4c4c; 
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.mainFooter{
+    width: 100%;
+    min-width: 14rem;
+    padding: 1rem;
+    background-color: #4c4c4c;
+    color: white;
+    display: flex; 
+    justify-content: center;
+}
+
+.mainFooter a {
+    color: #b5ff00
+}
